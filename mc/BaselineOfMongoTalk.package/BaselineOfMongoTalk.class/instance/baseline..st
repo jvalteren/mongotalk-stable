@@ -32,7 +32,8 @@ baseline: spec
 				group: 'Tests' with: #('Mongo-Tests-BSON' 'Mongo-Tests-Core' 'Mongo-Tests-Queries');
 				group: 'Tests + ReplicaSet Tests' with: #(Tests 'Mongo-Tests-ReplicaSet');
 				group: 'Client' with: #('default' 'Mongo-Client' 'Mongo-Client-Tests');
-				group: 'Client + ReplicaSet Tests' with: #('Client' 'Mongo-Client-ReplicaSet-Tests') ].
+				group: 'Client + ReplicaSet Tests' with: #('Client' 'Mongo-Client-ReplicaSet-Tests');
+				group: 'Client Core' with: #('Core' 'Mongo-Client') ].
 	
 	spec
 		for: #'pharo9.x'
