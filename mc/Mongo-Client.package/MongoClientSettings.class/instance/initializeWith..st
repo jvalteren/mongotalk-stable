@@ -1,4 +1,6 @@
 initialization
 initializeWith: aMongoClient
+
 	self initialize.
-	client := aMongoClient
+
+	aMongoClient addDependent: self
