@@ -1,0 +1,4 @@
+*Mongo-BSON
+asDictionary
+
+	^ self
