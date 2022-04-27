@@ -1,3 +1,5 @@
 writing
 nextRegexPut: aBSONRegex
-	stream nextStringPut: aBSONRegex value
+	stream
+		nextStringPut: aBSONRegex value ;
+		nextStringPut: (aBSONRegex options ifNil: [ '' ])

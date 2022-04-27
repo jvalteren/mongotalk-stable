@@ -1,12 +1,13 @@
 {
-	"commentStamp" : "TorstenBergmann 3/4/2015 10:04",
+	"commentStamp" : "ErikStel 4/26/2022 15:32",
 	"super" : "Object",
 	"category" : "Mongo-BSON-Utilities",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"value"
+		"value",
+		"options"
 	],
 	"name" : "BSONRegex",
 	"type" : "normal"
