@@ -2,4 +2,4 @@ writing
 nextRegexPut: aBSONRegex
 	stream
 		nextStringPut: aBSONRegex value ;
-		nextStringPut: (aBSONRegex options ifNil: [ '' ])
+		nextStringPut: aBSONRegex options

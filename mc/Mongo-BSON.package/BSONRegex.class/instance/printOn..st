@@ -4,4 +4,4 @@ printOn: aStream
 		nextPut: $/;
 		nextPutAll: self value;
 		nextPut: $/;
-		nextPut: $i
+		nextPutAll: self options

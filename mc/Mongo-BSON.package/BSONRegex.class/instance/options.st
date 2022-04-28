@@ -1,4 +1,4 @@
 accessing
 options
 
-	^ options
+	^ options ifNil: [ '' ]
